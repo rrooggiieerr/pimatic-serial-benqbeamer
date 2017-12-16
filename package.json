@@ -1,0 +1,34 @@
+{
+  "name": "pimatic-serial-benqbeamer",
+  "description": "Send commands to BenQ beamers over a serial connection",
+  "author": "Rogier van Staveren <rogier@staveren.net>",
+  "main": "serial-benqbeamer",
+  "files": [
+    "serial-benqbeamer.coffee",
+    "README.md",
+    "serial-benqbeamer-config-schema.coffee"
+  ],
+  "license": "GPL-2.0",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rrooggiieerr/pimatic-serial-benqbeamer",
+  "configSchema": "serial-benqbeamer-config-schema.coffee",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrooggiieerr/pimatic-serial-benqbeamer.git"
+  },
+  "keywords": [
+    "pimatic"
+  ],
+  "bugs": {
+    "url": "https://github.com/rrooggiieerr/pimatic-serial-benqbeamer/issues"
+  }
+}
